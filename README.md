@@ -1,6 +1,6 @@
 ![image](https://github.com/hvo2906/shopee-order-export/assets/171783916/854062c5-2db1-4a4a-aa68-694136f8487d)
 
-***PHIÊN BẢN TIẾNG VIỆT Ở BÊN DƯỚI hoặc [CLICK]([https://github.com/hvo2906/shopee-order-export/edit/main/README.md#tool-xu%E1%BA%A5t-%C4%91%C6%A1n-h%C3%A0ng-shopee-ra-file-excel](https://github.com/hvo2906/shopee-order-export?tab=readme-ov-file#tool-xu%E1%BA%A5t-%C4%91%C6%A1n-h%C3%A0ng-shopee-ra-file-excel)*** 
+***PHIÊN BẢN TIẾNG VIỆT Ở BÊN DƯỚI hoặc [CLICK](https://github.com/hvo2906/shopee-order-export?tab=readme-ov-file#tool-xu%E1%BA%A5t-%C4%91%C6%A1n-h%C3%A0ng-shopee-ra-file-excel)*** 
 
 # **Shopee Order Exporting**
 
