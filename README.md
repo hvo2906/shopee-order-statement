@@ -6,7 +6,7 @@
 
 ## **Introduction**
 
-The Shopee Order Exporting project is designed to help Shopee buyers conveniently export their order data from the Shopee platform for further analysis or record-keeping. This project provides two methods for exporting orders: 
+The Shopee Order Exporting project is designed to help Shopee buyers conveniently export their order data from the Shopee platform to Excel compatible file (CSV/XLSX) for further analysis or record-keeping. This project provides two methods for exporting orders: 
   1. Use the Chrome/CocCoc browser extension
   **OR** 
   2. Manually executing a JavaScript script in the browser's DevTools console.
@@ -61,8 +61,8 @@ VN VERSION
 
 ## **Giới thiệu**
 
-Dự án Xuất đơn hàng Shopee được thiết kế để giúp người mua Shopee xuất dữ liệu đơn hàng của họ một cách thuận tiện từ nền tảng Shopee để phân tích thêm hoặc lưu trữ hồ sơ. Dự án này cung cấp hai phương pháp để xuất đơn hàng:
-1. Sử dụng tiện ích mở rộng trình duyệt Chrome/CocCoc
+Dự án Xuất đơn hàng Shopee được thiết kế để giúp người mua Shopee xuất dữ liệu đơn hàng của họ ra file Excel (định dạng CSV/XLSX) một cách thuận tiện từ nền tảng Shopee để phân tích thêm hoặc để lưu trữ. Dự án này cung cấp hai phương pháp để xuất đơn hàng:
+1. Sử dụng tính năng Tiện ích mở rộng trên trình duyệt Chrome/CocCoc
 **HOẶC**
 2. Thực hiện thủ công một tập lệnh JavaScript trong bảng điều khiển DevTools của trình duyệt.
 
