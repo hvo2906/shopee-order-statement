@@ -22,4 +22,4 @@ The Shopee Order Exporting project is designed to help Shopee buyers convenientl
 - The exported orders will be downloaded as an Excel (.xlsx) file to your Downloads folder.
 
 NOTE: 
-Hat tip to NT Tòng for the base of this code.
+Hat tip to NT Tòng for the base of this code. His original code could be viewed here: https://pastecode.io/s/7cpgip63
