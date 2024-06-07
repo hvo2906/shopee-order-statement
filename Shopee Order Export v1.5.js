@@ -60,7 +60,7 @@
         const month = (date.getMonth() + 1).toString().padStart(2, '0');
         const year = date.getFullYear();
         return `${day}-${month}-${year}`;
-    }
+    }    
 
     function unixToExcelDate(unixTimestamp) {
         const date = new Date(unixTimestamp * 1000);
@@ -72,7 +72,7 @@
         const limit = 20;
         let offset = 0;
         const allOrders = [
-            ['OrderID', 'Order Time', 'Excel Time', 'Tên chung', 'Số lượng', 'Tổng tiền', 'Trạng thái', 'Tên shop', 'Chi tiết', 'Tiền gốc']
+            ['OrderID', 'Order Time', 'Tên chung', 'Số lượng', 'Tổng tiền', 'Trạng thái', 'Tên shop', 'Chi tiết', 'Tiền gốc']
         ];
         let totalAmount = 0;
         let totalCount = 0;
@@ -105,22 +105,18 @@
                 const orderCard = infoCard.order_list_cards[0];
                 const { username, shop_name: shopName } = orderCard.shop_info;
                 const products = orderCard.product_info.item_groups;
-                const productSummary = products.map(group =>
-                    group.items.map(item =>
-                        `${item.name}--amount: ${item.amount}--price: ${formatCurrency(item.item_price)}`
-                    ).join(', ')
-                ).join('; ');
+                const productSummary = products.flatMap(group => group.items.map(item => item.model_name)).join(', ');
+                
 
                 const name = products[0].items[0].name;
                 const formattedTotal = formatCurrency(subTotal);
 
                 // Fetch the order time
                 const orderTime = await getOrderDetails(orderid);
-                const formattedOrderTime = orderTime ? unixToDate(orderTime) : '';
-                const excelOrderTime = orderTime ? unixToExcelDate(orderTime) : '';
+                const formattedOrderTime = orderTime ? new Date(orderTime * 1000).toISOString().slice(0, 10) : '';
 
                 return [
-                    orderid, formattedOrderTime, excelOrderTime, name, productCount, formattedTotal, strListType, `${username} - ${shopName}`, productSummary, subTotal
+                    orderid, formattedOrderTime, name, productCount, formattedTotal, strListType, `${username} - ${shopName}`, productSummary, subTotal
                 ];
             });
 
@@ -132,7 +128,7 @@
         }
 
         allOrders.push([
-            'Tổng cộng: ', '', '', '', totalCount, formatCurrency(totalAmount), '', '', '', ''
+            'Tổng cộng: ', '', '', totalCount, formatCurrency(totalAmount), '', '', '', ''
         ]);
 
         // Create a workbook and add the data
