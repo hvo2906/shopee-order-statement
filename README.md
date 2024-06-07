@@ -6,7 +6,9 @@
 
 ## **Introduction**
 
-The Shopee Order Exporting project is designed to help Shopee buyers conveniently export their order data from the Shopee platform to Excel compatible file (CSV/XLSX) for further analysis or record-keeping. This project provides two methods for exporting orders: 
+Get a clear picture of your Shopee historical spending pattern with ShopeeVN Orders Statement! Think of it as your bank statement, but packed with all your SPE orders detail. Easily export your order history to a Excel compatible file (CSV/XLSX) to keep track of your historical spending, then build a budget for it and maintain financial health.
+
+This project provides two methods for exporting orders: 
   1. Use the Chrome/CocCoc browser extension
   **OR** 
   2. Manually executing a JavaScript script in the browser's DevTools console.
