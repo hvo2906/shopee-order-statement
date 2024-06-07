@@ -2,7 +2,7 @@
 
 ***PHIÊN BẢN TIẾNG VIỆT Ở BÊN DƯỚI hoặc [CLICK](https://github.com/hvo2906/shopee-order-export?tab=readme-ov-file#tool-xu%E1%BA%A5t-%C4%91%C6%A1n-h%C3%A0ng-shopee-ra-file-excel)*** 
 
-# **Shopee Order Exporting**
+# **Shopee Order Statement**
 
 ## **Introduction**
 
@@ -59,11 +59,13 @@ This project provides two methods for exporting orders:
 Hat tip to NT Tòng for the base of this code. His original code could be viewed [here](https://pastecode.io/s/7cpgip63) <sub/>
 
 VN VERSION
-# **Tool Xuất đơn hàng Shopee ra file Excel**
+# **Lịch sử mua sắm Shopee**
 
 ## **Giới thiệu**
 
-Dự án Xuất đơn hàng Shopee được thiết kế để giúp người mua Shopee xuất dữ liệu đơn hàng của họ ra file Excel (định dạng CSV/XLSX) một cách thuận tiện từ nền tảng Shopee để phân tích thêm hoặc để lưu trữ. Dự án này cung cấp hai phương pháp để xuất đơn hàng:
+Có được bức tranh rõ nét về lịch sử chi tiêu trên Shopee của bạn với Báo cáo đơn hàng ShopeeVN! Tương tự như sao kê ngân hàng, bạn có thể dễ dàng xuất lịch sử đơn hàng ra file Excel (định dạng CSV/XLSX) để theo dõi lịch sử chi tiêu, sau đó lập ngân sách mua sắm và duy trì sức khỏe tài chính    
+
+Công cụ này cung cấp hai phương pháp để xuất đơn hàng:
 1. Sử dụng tính năng Tiện ích mở rộng trên trình duyệt Chrome/CocCoc
 **HOẶC**
 2. Thực hiện thủ công một tập lệnh JavaScript trong bảng điều khiển DevTools của trình duyệt.
