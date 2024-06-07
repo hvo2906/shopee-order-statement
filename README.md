@@ -6,7 +6,7 @@
 
 ## **Introduction**
 
-Get a clear picture of your Shopee historical spending pattern with ShopeeVN Orders Statement! Think of it as your bank statement, but packed with all your SPE orders detail. Easily export your order history to a Excel compatible file (CSV/XLSX) to keep track of your historical spending, then build a budget for it and maintain financial health.
+Get a clear picture of your Shopee historical spending pattern with ShopeeVN Orders Statement! Think of it as your bank statement, but packed with all your SPE orders detail. Easily export your order history to a Excel compatible file (CSV/XLSX) to keep track of your historical spending, then build a budget for it and maintain financial health. 🤩
 
 This project provides two methods for exporting orders: 
   1. Use the Chrome/CocCoc browser extension
@@ -63,7 +63,7 @@ VN VERSION
 
 ## **Giới thiệu**
 
-Có được bức tranh rõ nét về lịch sử chi tiêu trên Shopee của bạn với Báo cáo đơn hàng ShopeeVN! Tương tự như sao kê ngân hàng, bạn có thể dễ dàng xuất lịch sử đơn hàng ra file Excel (định dạng CSV/XLSX) để theo dõi lịch sử chi tiêu, sau đó lập ngân sách mua sắm và duy trì sức khỏe tài chính    
+Có được bức tranh rõ nét về lịch sử chi tiêu trên Shopee của bạn với Báo cáo đơn hàng ShopeeVN! Tương tự như sao kê ngân hàng, bạn có thể dễ dàng xuất lịch sử đơn hàng ra file Excel (định dạng CSV/XLSX) để theo dõi lịch sử chi tiêu, sau đó lập ngân sách mua sắm và duy trì sức khỏe tài chính! 🤩
 
 Công cụ này cung cấp hai phương pháp để xuất đơn hàng:
 1. Sử dụng tính năng Tiện ích mở rộng trên trình duyệt Chrome/CocCoc
