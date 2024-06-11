@@ -17,28 +17,16 @@ This project provides two methods for exporting orders:
 
 ## **Usage Methods**
 
-### **Method 1: Chrome Extension - Manually Upload**
-  #### Step 1: Enable Developer Mode
+### **Method 1: Chrome/CocCoc Extension - Chrome Webstore**
+  #### Step 1: Access Extension link in Webstore
 1. Open Google Chrome or CocCoc
-2. Access Extensions: In the address bar, type chrome://extensions/ for Chrome browser, or coccoc://extensions/ then press Enter.
-3. Enable Developer Mode:
-  - In the Extensions page, you will see a toggle switch labeled Developer mode in the upper-right corner.
-  - Click on the toggle to enable Developer mode. This will reveal additional options.
-  #### Step 2: Load the Extension
-4. Unzip the Extension File:
-  - Locate the "Shopee Order Exporter - Extension.zip" file on your computer.
-  - Right-click on the file and choose Extract All or use your preferred extraction tool to unzip the file.
-  - Extract the contents to a known directory on your computer.
-5. Load Unpacked Extension:
-  - In the Extensions page in Chrome (with Developer mode enabled), click on the Load unpacked button.
-  - A file dialog will open. Navigate to the directory where you extracted the extension files.
-  - Select the folder containing the extracted files and click Select Folder.
-6. Verify Installation:
-  - You should now see the "Shopee Order Exporter" extension listed on the Extensions page.
-  - Ensure the extension is enabled (the toggle switch next to it should be on).
-  #### Step 3: Use the Extension
-7. Login to Shopee: Navigate to the Shopee website (https://shopee.vn/) and log in with your account.
-8. Open the Extension and Export:
+2. Access Extensions: Access this link (https://bit.ly/speods) for the extension
+3. Click Add to Chrome button
+4. A dialog box appears, asking you to add the extension. Click 'Add extension'.
+5. Wait for about 5 secs then a dialogue appears and tell you it has been successfully installed.
+  #### Step 2: Use the Extension
+6. Login to Shopee: Navigate to the Shopee website (https://shopee.vn/) and log in with your account.
+7. Open the Extension and Export:
   - Click on the puzzle piece icon (Extensions icon) in the upper-right corner of Chrome.
   - From the dropdown, find and click on "Shopee Order Exporter" to open the extension popup.
   - In the extension popup, click on the Export Orders button.
@@ -76,26 +64,14 @@ Công cụ này cung cấp hai phương pháp để xuất đơn hàng:
 
 ### **Phương pháp 1: Tiện ích mở rộng Chrome - Tải lên thủ công**
 #### Bước 1: Bật Chế độ nhà phát triển
-1. Mở Google Chrome hoặc CocCoc
-2. Truy cập Tiện ích mở rộng: Trong thanh địa chỉ, nhập chrome://extensions/ cho trình duyệt Chrome hoặc coccoc://extensions/ rồi nhấn Enter.
-3. Bật Chế độ nhà phát triển:
-- Trong trang Tiện ích mở rộng, bạn sẽ thấy một công tắc chuyển đổi có nhãn Chế độ nhà phát triển ở góc trên bên phải.
-- Nhấp vào nút chuyển đổi để bật Chế độ nhà phát triển. Thao tác này sẽ hiển thị các tùy chọn bổ sung.
-#### Bước 2: Tải tiện ích mở rộng
-4. Giải nén tệp tiện ích mở rộng:
-- Xác định vị trí tệp "Shopee Order Exporter - Extension.zip" trên máy tính của bạn.
-- Nhấp chuột phải vào tệp và chọn Giải nén tất cả hoặc sử dụng công cụ giải nén ưa thích của bạn để giải nén tệp.
-- Giải nén nội dung vào một thư mục đã biết trên máy tính của bạn.
-5. Tải tiện ích mở rộng chưa giải nén:
-- Trong trang Tiện ích mở rộng trong Chrome (đã bật Chế độ nhà phát triển), hãy nhấp vào nút Tải tiện ích mở rộng chưa giải nén.
-- Hộp thoại tệp sẽ mở ra. Điều hướng đến thư mục mà bạn đã giải nén các tệp tiện ích mở rộng.
-- Chọn thư mục chứa các tệp đã giải nén và nhấp vào Chọn thư mục.
-6. Xác minh cài đặt:
-- Bây giờ bạn sẽ thấy tiện ích mở rộng "Shopee Order Exporter" được liệt kê trên trang Tiện ích mở rộng.
-- Đảm bảo tiện ích mở rộng đã được bật (công tắc chuyển đổi bên cạnh tiện ích mở rộng phải bật).
-#### Bước 3: Sử dụng Extension
-7. Đăng nhập vào Shopee: Điều hướng đến trang web Shopee (https://shopee.vn/) và đăng nhập bằng tài khoản của bạn.
-8. Mở Extension và Xuất:
+1. Mở Google Chrome hoặc CocCoc.
+2. Truy cập Tiện ích mở rộng: Truy cập liên kết này (https://bit.ly/speods) để cài đặt.
+3. Nhấp vào nút Thêm vào Chrome (Add to Chrome).
+4. Một hộp thoại xuất hiện, yêu cầu bạn thêm tiện ích mở rộng. Nhấp vào 'Thêm tiện ích mở rộng' (Add extension).
+5. Đợi khoảng 5 giây sau đó một hộp thoại xuất hiện và cho bạn biết tiện ích đã được cài đặt thành công.
+#### Bước 2: Sử dụng Extension
+6. Đăng nhập vào Shopee: Điều hướng đến trang web Shopee (https://shopee.vn/) và đăng nhập bằng tài khoản của bạn.
+7. Mở Extension và Xuất:
 - Nhấp vào biểu tượng mảnh ghép (biểu tượng Extensions) ở góc trên bên phải của Chrome.
 - Từ menu thả xuống, tìm và nhấp vào "Shopee Order Exporter" để mở cửa sổ bật lên của extension.
 - Trong cửa sổ bật lên của extension, nhấp vào nút Xuất đơn hàng.
